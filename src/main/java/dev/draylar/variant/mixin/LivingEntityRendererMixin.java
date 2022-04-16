@@ -30,6 +30,8 @@ public abstract class LivingEntityRendererMixin<T extends LivingEntity> extends 
                 cir.setReturnValue(VariantClient.GHOST.apply(getTexture(entity)));
             } else if(variant == VariantRegistry.SHINY) {
                 cir.setReturnValue(VariantClient.SHINY.apply(getTexture(entity)));
+            } else if (variant == VariantRegistry.ABYSSAL) {
+                cir.setReturnValue(RenderLayer.getEndPortal());
             }
         }
     }

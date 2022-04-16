@@ -1,9 +1,6 @@
 package dev.draylar.variant.api;
 
-import dev.draylar.variant.api.variant.FlameVariant;
-import dev.draylar.variant.api.variant.GhostlyVariant;
-import dev.draylar.variant.api.variant.ShinyVariant;
-import dev.draylar.variant.api.variant.ThunderingVariant;
+import dev.draylar.variant.api.variant.*;
 import dev.draylar.variant.impl.MobVariantExtensions;
 import net.minecraft.entity.mob.MobEntity;
 
@@ -20,6 +17,7 @@ public class VariantRegistry {
     public static final EntityVariant SHINY = register(new ShinyVariant("shiny"), 1);
     public static final EntityVariant FLAME = register(new FlameVariant("flame"), 6);
     public static final EntityVariant MEGA = register(new EntityVariant("mega"), 5);
+    public static final EntityVariant ABYSSAL = register(new AbyssalVariant("abyssal"), 1);
 
     public static void load() {
 

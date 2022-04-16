@@ -2,6 +2,8 @@
 
 ---
 
+![](assets/creeper_banner.png)
+
 Introduces fun visual & mechanical entity modifiers to spice up vanilla entities.
 
 Available modifiers (visit the wiki page for descriptions):
