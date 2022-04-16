@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.draylar.variant.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixin",
+    "EntityModelLayersAccessor",
+    "EntityModelsMixin",
+    "EntityRenderersMixin",
+    "GameRendererMixin",
+    "LivingEntityMixin",
+    "LivingEntityRendererMixin",
+    "LivingRendererMixin",
+    "MobEntityVariantMixin",
+    "MobEntityMixin",
+    "MobRendererMixin",
+    "ModelCuboidDataAccessor",
+    "ModelPartDataAccessor",
+    "RenderLayerAccessor",
+    "TextureDimensionsAccessor",
+    "TexturedModelDataAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
