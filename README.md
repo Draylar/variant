@@ -6,7 +6,7 @@
 
 Introduces fun visual & mechanical entity modifiers to spice up vanilla entities.
 
-Available modifiers (visit the wiki page for descriptions):
+Available modifiers ([visit the wiki page for descriptions](https://github.com/Draylar/variant/wiki)):
 - Ghostly
 - Thundering
 - Shiny
